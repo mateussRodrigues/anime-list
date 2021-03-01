@@ -59,7 +59,7 @@ def id_animes():
                 # pega o id do response
                 response_id = response['data']['Page']['media'][0]['id']
                 lista_id.append(response_id)
-                print(f"seila: {count} = id:{lista_id[i]} ")
+                print(f"id: {count} = id:{lista_id[i]} ")
                 i += 1
                 count += 1
                 id += 1
